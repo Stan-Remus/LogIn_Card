@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 32rem;
+    height: auto;
+    border-radius: .5rem;
+    margin-top: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 8px 1px;
+}
+
+form{
+    margin: 2rem;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.button {
+    background-color: hsl(154, 59%, 51%);
+	color: inherit;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+    width: 100%;
+    height: 3rem;
+    border-radius: .5rem;
+    color: white;
+    box-shadow: hsl(154, 56%, 46%) 0px 6px 1px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: hsl(155, 53%, 64%);
+    box-shadow: hsl(155, 45%, 58%) 0px 6px 1px;
+}
+.typography{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardParagraph{
+    align: center;
+    font-size: 10px;
+    color: hsl(246, 25%, 77%);
+}
+
+.span {
+    color: hsl(0, 100%, 74%) ;
+    font-weight: bold;
+    
+}
+
+.textField{
+    font-family: 'Poppins', sans-serif;
+    color: green;
+}
+
+@media screen and (max-width: 375px) {
+    .card{
+        width: 90%;
+    }
+  }
+
+

@@ -1,0 +1,32 @@
+.secondButton{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+    background-color:  hsl(248, 32%, 49%);
+    width: 32rem;
+    height: 3rem;
+    border-radius: .5rem;
+    color: hsl(248, 17%, 91%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 8px 1px;
+}
+.secondButton:hover{
+    background-color:  hsl(249, 19%, 43%);
+    box-shadow: rgba(32, 32, 32, 0.24) 0px 8px 1px;
+}
+
+span {
+    color: white;
+    font-weight: bold;
+    
+}
+
+@media screen and (max-width: 375px) {
+    .secondButton{
+        width: 90%;
+        text-align: center;
+        height: 5rem;
+    }
+  }
